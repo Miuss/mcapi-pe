@@ -22,7 +22,7 @@ $json = array(
     'status' => 'success',
     'online' => false,
     'host' => array(
-        'host' => $host,
+        'ip' => $host,
         'port' => $port
     ),
     'motd' => null,
@@ -44,7 +44,7 @@ if ($Info = $Query->GetInfo()) {
             'online' => true,
                 
             'host' => array(
-                'host' => $host,
+                'ip' => $host,
                 'port' => $port
             ),
 
